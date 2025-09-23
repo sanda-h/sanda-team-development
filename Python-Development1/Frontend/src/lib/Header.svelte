@@ -1,10 +1,22 @@
 <script>
     
 </script>
-<nav> <!--リンクをまとめる際に使うタグ-->
+
+<nav class="header"> <!--リンクをまとめる際に使うタグ-->
     <div>
         <a href="/">
-            会計システムアプリ
+            <img src="31022.jpg" alt="サイトのロゴ">
         </a>
     </div>
+    <li>
+        <a href="register">
+            レジ画面    
+        </a>
+    </li>
 </nav>
+
+<style>
+    .header{
+        background: blue;
+    }
+</style>
